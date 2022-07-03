@@ -1,9 +1,11 @@
 import './App.css';
+import Cats from './components/pages/Cats';
+
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App container">
+      <Cats />
     </div>
   );
 }
