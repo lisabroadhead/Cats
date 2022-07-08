@@ -1,2 +1,9 @@
-.wrp{max-width: 1000px; margin: 0 auto;}
+.wrp{max-width: 800px; margin: 0 auto; padding: 50px;}
 .wrp .title{text-align: center;}
+.wrp .subtitls{text-align: center;font-size: 22px; text-align: center; display: block;}
+p {font-size: 18px; display: flex; align-items: center;justify-content: space-between; flex-wrap: wrap;}
+p button{margin: 0 5px; border: none; padding: 5px 15px; background-color:var(--orange); color:var(--black); transition: all .25s ease-in;}
+    p button:hover{cursor: pointer; transform: scale(.85); transition: all .25s ease-in;}
+p:nth-child(1) button:nth-child(1){display: none;}
+p:last-child button:last-child{opacity: 0;}
+p:last-child button:focus:last-child{outline: none;}
